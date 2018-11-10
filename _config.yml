@@ -1,2 +1,16 @@
-title: Wibblemonkey's Site
-theme: jekyll-theme-minimal
+title: Metasyntactically Variable
+email: jim@wibblemonkey.com
+description: A blog about programming. And sometimes about music.
+baseurl:
+url: "https://www.wibblemonkey.com" # the base hostname & protocol for your site
+github_username:    wibblemonkey
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir: ./_sass
+
+compress_html:
+  ignore:
+    envs: [ "development" ]
